@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 psychopy = "*"
+autopep8 = "*"
 
 [dev-packages]
 
