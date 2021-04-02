@@ -5,13 +5,13 @@ name = "pypi"
 
 [packages]
 psychopy = "*"
+
+[dev-packages]
 notebook = "*"
 jupyter-book = "*"
 jupyter-contrib-nbextensions = "*"
 flake8 = "*"
 pycodestyle_magic = "*"
-
-[dev-packages]
 
 [requires]
 python_version = "3.6"
