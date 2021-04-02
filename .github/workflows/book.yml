@@ -36,7 +36,9 @@ jobs:
 
     - name: Install dependencies
       if: steps.pipenv-cache.outputs.cache-hit != 'true'
-      run: pipenv update --dev
+      run: |
+        pipenv update --dev
+        pipenv shell
 
     # Build the book
     - name: Build the book
