@@ -45,6 +45,7 @@ jobs:
         export VENV_HOME_DIR=$(pipenv --venv)
         echo "$VENV_HOME_DIR/bin" >> $GITHUB_PATH
         echo "$PATH"
+        echo "$GITHUB_PATH"
       # jupyter-book build .
 
     # Push the book's HTML to github-pages
