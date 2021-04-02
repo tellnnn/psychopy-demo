@@ -37,8 +37,8 @@ jobs:
     - name: Install dependencies
       if: steps.pipenv-cache.outputs.cache-hit != 'true'
       run: |
-        pipenv lock --requirements --dev >> requirement.txt
-        pip install --requirement requirement.txt
+        pipenv lock --requirements --dev >> requirements.txt
+        pip install --requirement requirements.txt
 
     # Build the book
     - name: Build the book
