@@ -24,21 +24,12 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         python -m pip install pipenv
-    
-    - name: Cache
-      uses: actions/cache@v2
-      id: pipenv-cache
-      with:
-        path: ~/.local/share/virtualenvs
-        key: ${{ runner.os }}-pipenv-${{ hashFiles('**/Pipfile.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-pipenv-${{ hashFiles('**/Pipfile.lock') }}
 
     - name: Install dependencies
       if: steps.pipenv-cache.outputs.cache-hit != 'true'
       run: |
-        pipenv lock --requirements --dev >> requirements.txt
-        pip install --requirement requirements.txt
+        pipenv lock -r --dev >> requirements.txt
+        pip install -r requirements.txt
 
     # Build the book
     - name: Build the book
