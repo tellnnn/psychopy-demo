@@ -5,9 +5,13 @@ name = "pypi"
 
 [packages]
 psychopy = "*"
-autopep8 = "*"
 
 [dev-packages]
+notebook = "*"
+jupyter-book = "*"
+jupyter-contrib-nbextensions = "*"
+flake8 = "*"
+pycodestyle_magic = "*"
 
 [requires]
 python_version = "3.6"
