@@ -1,6 +1,6 @@
-# README
+# PsychoPy Demo
 
-This is an introduction to PsychoPy3.
+This repository provides demos on PsychoPy.
 
 # Note
 
