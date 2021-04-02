@@ -28,6 +28,7 @@ jobs:
     - name: Install dependencies
       if: steps.pipenv-cache.outputs.cache-hit != 'true'
       run: |
+        pipenv lock --dev
         pipenv lock -r --dev >> requirements.txt
         pip install -r requirements.txt
 
