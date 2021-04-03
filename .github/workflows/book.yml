@@ -1,12 +1,10 @@
 name: deploy-book
 
-# Only run this when the main branch changes
 on:
   push:
     branches:
     - main
 
-# This job installs dependencies, build the book, and pushes it to `gh-pages`
 jobs:
   deploy-book:
     runs-on: ubuntu-latest
@@ -14,7 +12,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    # Install dependencies
     - name: Set up Python 3.6
       uses: actions/setup-python@v2
       with:
