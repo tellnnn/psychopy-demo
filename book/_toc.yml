@@ -1,7 +1,7 @@
 # Table of content
 # Learn more at https://jupyterbook.org/customize/toc.html
 #
-- file: content/00-introduction
+- file: content/00-00-introduction
   title: Introduction
   sections:
     - file: content/00-01-what-is-psychopy
