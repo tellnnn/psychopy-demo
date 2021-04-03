@@ -4,7 +4,7 @@
 - file: content/00-introduction
   title: Introduction
   sections:
-    - file: content/00-01-why-psychopy
+    - file: content/00-01-what-is-psychopy
       title: Why PsychoPy
     - file: content/00-02-installation
       title: Installation
