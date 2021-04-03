@@ -11,6 +11,14 @@ copyright: "2021"
 execute:
   execute_notebooks: 'off'
 
+# Parse and render settings
+# See https://myst-parser.readthedocs.io/en/latest/using/syntax-optional.html
+parse:
+  myst_enable_extensions:
+    - amsmath
+    - colon_fence
+    - dollarmath
+
 # Define the name of the latex output file for PDF builds
 latex:
   latex_documents:
