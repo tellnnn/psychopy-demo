@@ -1,8 +1,12 @@
 # Table of content
 # Learn more at https://jupyterbook.org/customize/toc.html
 #
-- file: intro
-- file: content
+- file: content/00-introduction
+  title: Introduction
   sections:
-    - file: markdown
-    - file: notebooks
+    - file: content/00-why-psychopy
+      title: Why PsychoPy
+    - file: content/00-installation
+      title: Installation
+    - file: content/00-getting-started
+      title: Getting Started
