@@ -28,18 +28,17 @@ jobs:
     - name: Install dependencies
       if: steps.pipenv-cache.outputs.cache-hit != 'true'
       run: |
-        pipenv lock --dev
         pipenv lock -r --dev >> requirements.txt
         pip install -r requirements.txt
 
     # Build the book
     - name: Build the book
       run: |
-        jupyter-book build psychopy-demo
+        jupyter-book build book
 
     # Push the book's HTML to github-pages
     - name: GitHub Pages action
       uses: peaceiris/actions-gh-pages@v3.8.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./psychopy-demo/_build/html
+        publish_dir: ./book/_build/html
