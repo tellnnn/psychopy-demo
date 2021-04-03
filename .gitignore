@@ -2,5 +2,8 @@
 .git
 .vscode
 
+# pipenv
+Pipfile.lock
+
 # jupyter notebook
 .ipynb_checkpoints
