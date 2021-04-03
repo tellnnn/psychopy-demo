@@ -4,9 +4,9 @@
 - file: content/00-introduction
   title: Introduction
   sections:
-    - file: content/00-why-psychopy
+    - file: content/00-01-why-psychopy
       title: Why PsychoPy
-    - file: content/00-installation
+    - file: content/00-02-installation
       title: Installation
-    - file: content/00-getting-started
+    - file: content/00-03-getting-started
       title: Getting Started
