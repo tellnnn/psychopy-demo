@@ -1,7 +1,7 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: PsychoPy Demo
+title: PsychoPy Coder Demo
 author: Teruaki Kido
 logo: logo.png
 copyright: "2021"
@@ -24,7 +24,7 @@ bibtex_bibfiles:
 repository:
   url: https://github.com/tellnnn/psychopy-demo  # Online location of your book
   path_to_book: psychopy-demo  # Optional path to your book, relative to the repository root
-  branch: master  # Which branch of the repository should be used when creating links (optional)
+  branch: gh-pages  # Which branch of the repository should be used when creating links (optional)
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
