@@ -86,15 +86,19 @@ With Python of the specified version, upgrade `pip` and install `pipenv` with:
 
 ```
 python -m pip install --upgrade pip
-python -m pip install pipenv
+python -m pip install --user pipenv
 ```
 
 ```{note}
-The above lines follow the section [Pragmatic Installation of Pipenv](https://pipenv.pypa.io/en/latest/install/#pragmatic-installation-of-pipenv) under `pipenv` installation instructions. Of course, you can choose another method instead.
+The above lines follow the section "[Pragmatic Installation of Pipenv](https://pipenv.pypa.io/en/latest/install/#pragmatic-installation-of-pipenv)" under `pipenv` installation instructions. Of course, you can choose another method instead.
 ```
 
 :::{note}
-If you received the warning saying: `WARNING: The scripts pipenv and pipenv-resolver are installed in '/Users/yourname/.local/bin' which is not on PATH. Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.`, run the following lines additionally:
+If you received the warning saying:
+
+`WARNING: The scripts pipenv and pipenv-resolver are installed in '/Users/yourname/.local/bin' which is not on PATH. Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.`
+
+Then, run the following lines additionally:
 
 ```
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
