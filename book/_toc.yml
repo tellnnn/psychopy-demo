@@ -1,11 +1,9 @@
-# Table of content
-# Learn more at https://jupyterbook.org/customize/toc.html
-#
-- file: content/00-00-introduction
-  title: Introduction
-  sections:
+- part: Introduction
+  chapters:
+    - file: content/00-00-introduction
+      title: Introduction
     - file: content/00-01-what-is-psychopy
-      title: Why PsychoPy
+      title: What is PsychoPy
     - file: content/00-02-installation
       title: Installation
     - file: content/00-03-getting-started
