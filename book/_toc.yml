@@ -1,5 +1,5 @@
 - part: Introduction
   chapters:
-    - file: content/00-01-what-is-psychopy
-    - file: content/00-02-installation
-    - file: content/00-03-getting-started
+  - file: content/00-01-what-is-psychopy
+  - file: content/00-02-installation
+  - file: content/00-03-getting-started
