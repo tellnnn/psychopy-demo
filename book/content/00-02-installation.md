@@ -1,8 +1,3 @@
----
-title: Installation
-author: Teruaki Kido
----
-
 # Installation
 
 As the first step, it is nice to read through [PsychoPy installation instructions](https://www.psychopy.org/download.html) to understand available ways to install PsychoPy.
