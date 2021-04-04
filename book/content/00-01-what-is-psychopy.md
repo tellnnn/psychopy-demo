@@ -1,4 +1,4 @@
-## What is PsychoPy?
+# PsychoPy
 
 > PsychoPy is a free cross-platform package allowing you to run a wide range of experiments in the behavioral sciences (neuroscience, psychology, psychophysics, linguistics...)
 > 

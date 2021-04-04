@@ -1,10 +1,10 @@
-- file: content/00-00-introduction
-  title: Introduction
+- file: content/00-00-preface
+
+- file: content/00-01-what-is-psychopy
   sections:
-    - file: content/00-01-what-is-psychopy
     - file: content/00-02-installation
     - file: content/00-03-getting-started
 
 - file: content/01-00-monitors-and-windows
   sections:
-    - file: content/01-01_basics
+    - file: content/01-01-basics
